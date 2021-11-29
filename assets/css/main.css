@@ -292,8 +292,8 @@ input, select, textarea {
 	section.special {
 		text-align: center;
 	}
-/* Headers 
-	-- currently only exist within <section> elements. 
+/* Headers
+	-- currently only exist within <section> elements.
 	If changed, alter CSS selector to select proper child header.
 */
 	header p {
@@ -447,7 +447,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		width:70px; 
+		width:70px;
 	}
 
 		.image img {
@@ -1391,8 +1391,8 @@ input, select, textarea {
 
 		/* Icon */
 
-			
-			
+
+
 			.icon.major {
 				margin: 0 0 1em 0;
 			}
@@ -1474,7 +1474,7 @@ input, select, textarea {
 						#footer .copyright li:first-child {
 							margin-top: 0;
 						}
-		
+
 		/* Disappear twitter and instagram and github */
 		.fa-twitter {
 			display:none;
@@ -2023,7 +2023,7 @@ img {
 
 #header .icon {
 	padding-top:15px;
-}		
+}
 
 @media screen and (max-width: 736px) {
 	#header .icon {
@@ -2044,7 +2044,7 @@ img {
 }
 
 .l-text {
-	margin-left: 10px !important;
+	margin-left: 9px !important;
 	margin: auto;
 }
 
@@ -2052,4 +2052,3 @@ img {
 	display: flex;
 	margin: auto;
 }
-
