@@ -1403,10 +1403,6 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			button,
-			.button {
-				height: 3em;
-				line-height: 3em;
-			}
 
 		/* Main */
 
@@ -1441,9 +1437,6 @@ input, select, textarea {
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
-			.button {
-				padding: 0;
-			}
 
 		/* Main */
 
@@ -2004,7 +1997,7 @@ img {
 
 .wrap-border {
 	border:white;
-	border-style:outset;
+	border-style: solid;
 	border-radius:30px;
 	height:100%;
 	width:100%;
@@ -2038,3 +2031,18 @@ img {
 	}
 }
 
+.location {
+	display: flex;
+	width:100%;
+}
+
+.l-icon {
+	margin-left: 45%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.l-text {
+	margin-left: 10px !important;
+	margin: auto;
+}
