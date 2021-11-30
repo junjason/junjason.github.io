@@ -1641,9 +1641,6 @@ input, select, textarea {
 				z-index: 1;
 			}
 
-			#top nav a[href="#menu"]:hover:after, #top nav a[href="#menu"]:active:after {
-				opacity: 1;
-			}
 
 			#top nav a[href="#menu"]:last-child {
 				padding-right: 3.875em !important;
