@@ -1970,7 +1970,7 @@ body.is-menu-visible #menu {
 	border-radius: 5px;
 	border-color:white;
 	box-shadow: #000000;
-	opacity: 40% !important;
+	opacity: 60% !important;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
