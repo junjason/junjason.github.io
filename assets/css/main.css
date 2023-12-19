@@ -113,7 +113,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: white
 		}
 
 	strong, b {
@@ -829,14 +829,14 @@ input, select, textarea {
 			}
 
 			.main.style1 a:hover {
-				color: transparent;
+				color: darkgray;
 			}
 			.main.style2 a {
 				border-bottom-color: transparent;
 			}
 
 				.main.style2 a:hover {
-					color: transparent;
+					color:darkgray;
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
@@ -1115,7 +1115,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background: transparent;
+		background: #6a8fd3;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-position: top left, center center, center center;
@@ -1128,7 +1128,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: transparent;
+				color: darkgray;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -1340,6 +1340,7 @@ input, select, textarea {
 
 			#one {
 				text-align: center;
+				background-color: #6a8fd3;
 			}
 			#one img {
 				margin-left:auto;
@@ -1349,6 +1350,7 @@ input, select, textarea {
 
 			#two {
 				text-align: center;
+				background-color: #6a8fd3;
 			}
 
 	}
@@ -2010,15 +2012,15 @@ img {
 	padding: 15px !important;
 }
 
-.skill-title {
+/* .skill-title {
 	height: 70px;
-}
+} */
 
-.skill-desc {
+/* .skill-desc {
 	padding-top: 40px;
 	padding-left: 5px;
 	padding-right: 5px;
-}
+} */
 
 .icons {
 	padding-left: 20px;
@@ -2054,4 +2056,10 @@ img {
 .wrap-location {
 	display: flex;
 	margin: auto;
+
 }
+
+#four, #two, #one {
+	background-color: #6a8fd3;
+}
+
